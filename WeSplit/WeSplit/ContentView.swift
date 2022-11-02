@@ -1,9 +1,4 @@
-//
-//  ContentView.swift
-//  WeSplit
-//
-//  Created by Manuel Enrique Amores Gonzalez on 31/10/22.
-//
+
 
 import SwiftUI
 
