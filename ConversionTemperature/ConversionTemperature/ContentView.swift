@@ -8,14 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var inputTypeUser = 0
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView{
+            Form{
+                Section{
+                    Text("Hola")
+                }header: {
+                    Text("Element to change")
+                }
+            }
         }
-        .padding()
     }
 }
 
