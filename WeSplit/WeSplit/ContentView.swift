@@ -10,6 +10,9 @@ struct ContentView: View {
     
     
     let tipPercenteges = [10,15,20,25,0]
+    @State private var button1 = false
+    @State private var button2 = false
+    @State private var button3 = false
     
     var totalPerPerson: (splitAccount: Double, totalAmount: Double) {
         let peopleCount = Double(numberOfPeople + 2)
@@ -26,6 +29,46 @@ struct ContentView: View {
     }
     
     var body: some View {
+        Button{
+            button1 = true
+            button2 = false
+            button3 = false
+        } label:{
+            if button1 == true{
+             Label("Learn More", systemImage: "book.fill")
+                    .background(Color.orange)
+            }else{
+                Label("Learn More", systemImage: "heart.fill")
+                    
+            }
+            
+        }
+        Button{
+            button1 = false
+            button2 = true
+            button3 = false
+        } label:{
+            if button2 == true{
+             Label("Learn More", systemImage: "book.fill")
+                    .background(Color.orange)
+                    
+            }else{
+                Label("Learn More", systemImage: "heart.fill")
+                    
+            }
+        }
+        Button{
+            button1 = false
+            button2 = false
+            button3 = true
+        } label:{
+            if button3 == true{
+             Label("Learn More", systemImage: "checkmark.circle.fill")
+                    .background(Color.orange)
+            }else{
+                Label("Learn More", systemImage: "heart.fill")
+            }
+        }
         NavigationView{
             Form{
                 Section{

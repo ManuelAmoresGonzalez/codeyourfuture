@@ -11,6 +11,7 @@
 		098AEA2B291302BF0064127F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098AEA2A291302BF0064127F /* ContentView.swift */; };
 		098AEA2D291302C00064127F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098AEA2C291302C00064127F /* Assets.xcassets */; };
 		098AEA30291302C00064127F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098AEA2F291302C00064127F /* Preview Assets.xcassets */; };
+		09B2388E29158064008EEA45 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B2388D29158064008EEA45 /* Test.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		098AEA2A291302BF0064127F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		098AEA2C291302C00064127F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		098AEA2F291302C00064127F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09B2388D29158064008EEA45 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				098AEA2A291302BF0064127F /* ContentView.swift */,
 				098AEA2C291302C00064127F /* Assets.xcassets */,
 				098AEA2E291302C00064127F /* Preview Content */,
+				09B2388D29158064008EEA45 /* Test.storyboard */,
 			);
 			path = ConversionTemperature;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B2388E29158064008EEA45 /* Test.storyboard in Resources */,
 				098AEA30291302C00064127F /* Preview Assets.xcassets in Resources */,
 				098AEA2D291302C00064127F /* Assets.xcassets in Resources */,
 			);
